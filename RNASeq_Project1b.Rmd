@@ -73,7 +73,13 @@ To download the data, we would need to execute `download_raw_data.sh`.
 
 Depending on your internet connection, this might take around an hour, since the files are fairly large. Instead, we have created *downsampled* files that contain only ~1.5M fragments per sample, which are a lot smaller. However, you have the scripts to download the original (complete) files, if you want to try analysing the complete data later.
 
-For now, download the data from here: https://drive.google.com/file/d/1v95T3broSVxMbxuNQz5dQrrwgyaFxRiO/view?usp=sharing. Save the file in the `data` directory. Then use the `tar` command to extract all the files.
+For now, download the data from here:
+
+```{r bash, eval=FALSE}
+https://drive.google.com/file/d/1v95T3broSVxMbxuNQz5dQrrwgyaFxRiO/view?usp=sharing
+```
+
+Save the file in the `data` directory. Then use the `tar` command to extract all the files.
 
 We also have access to the reference genome for *Plasmodium berghei*, a *gff3* file that contains the gene annotations, and the corresponding transcript sequences (note that the files are compressed). 
 
